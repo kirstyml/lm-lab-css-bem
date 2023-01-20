@@ -1,7 +1,77 @@
-/* You can delete / re-write this img class  */
+/* block: PAGE */
+.page {
 
-img {
-    max-width: 200px;
 }
 
-/* Happy coding! */
+/* element: PAGE__TITLE */
+
+.page__title {
+    
+}
+
+/* block: CONTAINER */
+
+.container {
+    display: flex;
+}
+
+/* block: CARD */
+/* structure */
+.card {
+
+}
+
+/* skins */
+
+.card--light {
+
+}
+
+.card--dark {
+    
+}
+
+/* element: CARD__TITLE */
+/* structure */
+.card__title {
+
+}
+
+/* skins */
+.card__title-light {
+
+}
+
+.card__title-dark {
+    
+}
+
+/* element: CARD__IMAGE */
+/* structure */
+.card__image {
+
+}
+
+/* skins */
+.card__image-light {
+
+}
+
+.card__image-dark {
+    
+}
+
+/* element: CARD__TEXT */
+/* structure */
+.card__text {
+
+}
+
+/* skins */
+.card__text-light {
+
+}
+
+.card__text-dark {
+    
+}
