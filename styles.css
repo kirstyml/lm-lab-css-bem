@@ -1,12 +1,15 @@
 /* block: PAGE */
 .page {
-    background-color: gainsboro;
+    background-color: black;
+    background-image: url(./melanie-weidmann-9he1mSaFsQg-unsplash.jpg);
+    background-size: cover;
 }
 
 /* element: PAGE__TITLE */
 
 .page__title {
     text-align: center;
+    color: white;
 }
 
 /* block: CONTAINER */
@@ -22,16 +25,28 @@
 .card {
     padding: 2rem;
     border-radius: 0.25rem;
+    margin: 2rem;
 }
 
 /* skins */
 
 .card-light {
     background-color: white;
+    box-shadow: 0px 0px 5px 3px rgba(100, 227, 252, 0.8);
+}
+
+.card-light:hover {
+    box-shadow: 0px 0px 5px 8px rgba(100, 227, 252, 0.8);
 }
 
 .card-dark {
     background-color: black;
+    box-shadow: 0px 0px 5px 3px rgba(255, 0, 0, 0.8);
+}
+
+.card-dark:hover {
+    background-color: black;
+    box-shadow: 0px 0px 5px 8px rgba(255, 0, 0, 0.8);
 }
 
 /* element: CARD__TITLE */
