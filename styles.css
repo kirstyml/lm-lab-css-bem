@@ -10,6 +10,11 @@
 .page__title {
     text-align: center;
     color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 500%;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 150%;
 }
 
 /* block: CONTAINER */
@@ -53,7 +58,7 @@
 /* structure */
 .card__title {
     margin-top: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
 }
 
 /* skins */
@@ -73,19 +78,10 @@
     object-fit: cover;
 }
 
-/* skins */
-.card__image-light {
-    
-}
-
-.card__image-dark {
-    
-}
-
 /* element: CARD__TEXT */
 /* structure */
 .card__text {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
 }
 
 /* skins */
@@ -95,4 +91,25 @@
 
 .card__text-dark {
     color: white;
+}
+
+/* block: BUTTON */
+
+/* structure */
+
+.button {
+    width: 100%;
+    padding: 1rem;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.25rem;
+    border: none;
+}
+
+/* skins */
+.button-blue {
+    background-color: rgba(100, 227, 252);
+}
+
+.button-red {
+    background-color: red;
 }
