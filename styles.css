@@ -1,115 +1,89 @@
 /* block: PAGE */
 .page {
-    background-color: black;
-    background-image: url(./melanie-weidmann-9he1mSaFsQg-unsplash.jpg);
-    background-size: cover;
+  background-color: black;
+  background-image: url("./images/melanie-weidmann-9he1mSaFsQg-unsplash.jpg");
+  background-size: cover;
+  /* element: PAGE__TITLE */
 }
-
-/* element: PAGE__TITLE */
-
 .page__title {
-    text-align: center;
-    color: white;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 500%;
-    font-weight: 600;
-    letter-spacing: 6px;
-    line-height: 150%;
+  text-align: center;
+  color: white;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 500%;
+  font-weight: 600;
+  letter-spacing: 6px;
+  line-height: 150%;
 }
 
 /* block: CONTAINER */
-
 .container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-/* block: CARD */
-/* structure */
-.card {
-    padding: 2rem;
-    border-radius: 0.25rem;
-    margin: 2rem;
-}
-
-/* skins */
-
-.card-light {
-    background-color: white;
-    box-shadow: 0px 0px 5px 3px rgba(100, 227, 252, 0.8);
-}
-
-.card-light:hover {
-    box-shadow: 0px 0px 5px 8px rgba(100, 227, 252, 0.8);
-}
-
-.card-dark {
-    background-color: black;
-    box-shadow: 0px 0px 5px 3px rgba(255, 0, 0, 0.8);
-}
-
-.card-dark:hover {
-    background-color: black;
-    box-shadow: 0px 0px 5px 8px rgba(255, 0, 0, 0.8);
-}
-
-/* element: CARD__TITLE */
-/* structure */
-.card__title {
-    margin-top: 0;
-    font-family: 'Pathway Gothic One', sans-serif;
-}
-
-/* skins */
-.card__title-light {
-    color: black;
-}
-
-.card__title-dark {
-    color: white;
-}
-
-/* element: CARD__IMAGE */
-/* structure */
-.card__image {
-    width: 18.75rem;
-    height: 18.75rem;
-    object-fit: cover;
-}
-
-/* element: CARD__TEXT */
-/* structure */
-.card__text {
-    font-family: 'Pathway Gothic One', sans-serif;
-}
-
-/* skins */
-.card__text-light {
-    color: black;
-}
-
-.card__text-dark {
-    color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 /* block: BUTTON */
-
-/* structure */
-
 .button {
-    width: 100%;
-    padding: 1rem;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 1.25rem;
-    border: none;
+  width: 100%;
+  padding: 1rem;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 1.25rem;
+  border: none;
 }
-
-/* skins */
 .button-blue {
-    background-color: rgba(100, 227, 252);
+  background-color: rgb(100, 227, 252);
+}
+.button-red {
+  background-color: rgb(255, 0, 0);
 }
 
-.button-red {
-    background-color: red;
+/* block: CARD */
+.card {
+  padding: 2rem;
+  border-radius: 0.25rem;
+  margin: 2rem;
+  /* element: CARD__TITLE */
+  /* element: CARD__IMAGE */
+  /* element: CARD__TEXT */
 }
+.card-light {
+  background-color: white;
+  box-shadow: 0px 0px 5px 3px rgb(100, 227, 252);
+}
+.card-light:hover {
+  box-shadow: 0px 0px 5px 8px rgb(100, 227, 252);
+}
+.card-dark {
+  background-color: black;
+  box-shadow: 0px 0px 5px 3px rgb(255, 0, 0);
+}
+.card-dark:hover {
+  background-color: black;
+  box-shadow: 0px 0px 5px 8px rgb(255, 0, 0);
+}
+.card__title {
+  margin-top: 0;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+.card__title-light {
+  color: black;
+}
+.card__title-dark {
+  color: white;
+}
+.card__image {
+  width: 18.75rem;
+  height: 18.75rem;
+  object-fit: cover;
+}
+.card__text {
+  font-family: "Pathway Gothic One", sans-serif;
+}
+.card__text-light {
+  color: black;
+}
+.card__text-dark {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

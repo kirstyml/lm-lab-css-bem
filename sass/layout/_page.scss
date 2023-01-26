@@ -1,0 +1,21 @@
+@use '../abstracts/variables';
+
+/* block: PAGE */
+.page {
+    background-color: variables.$color-dark;
+    background-image: url("./images/melanie-weidmann-9he1mSaFsQg-unsplash.jpg");
+    background-size: cover;
+
+    /* element: PAGE__TITLE */
+
+    &__title {
+        text-align: center;
+        color: variables.$color-light;
+        font-family: variables.$text-font-stack;
+        font-size: 500%;
+        font-weight: 600;
+        letter-spacing: 6px;
+        line-height: 150%;
+    }
+}
+

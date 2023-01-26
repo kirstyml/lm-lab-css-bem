@@ -1,0 +1,60 @@
+@use '../abstracts/variables';
+
+/* block: CARD */
+.card {
+    padding: 2rem;
+    border-radius: 0.25rem;
+    margin: 2rem;
+
+    &-light {
+        background-color: variables.$color-light;
+        box-shadow: 0px 0px 5px 3px variables.$color-blue;
+        &:hover {
+            box-shadow: 0px 0px 5px 8px variables.$color-blue;
+        }
+    }
+
+    &-dark {
+        background-color: variables.$color-dark;
+        box-shadow: 0px 0px 5px 3px variables.$color-red;
+        &:hover {
+            background-color: variables.$color-dark;
+            box-shadow: 0px 0px 5px 8px variables.$color-red;
+        }
+    }
+
+    /* element: CARD__TITLE */
+
+    &__title {
+        margin-top: 0;
+        font-family: variables.$text-font-stack;
+
+        &-light {
+            color: variables.$color-dark;
+        }
+        
+        &-dark {
+            color: variables.$color-light;
+        }
+    }
+
+    /* element: CARD__IMAGE */
+    &__image {
+        width: 18.75rem;
+        height: 18.75rem;
+        object-fit: cover;
+    }
+
+    /* element: CARD__TEXT */
+    &__text {
+        font-family: variables.$text-font-stack;
+
+        &-light {
+            color: variables.$color-dark;
+        }
+        
+        &-dark {
+            color: variables.$color-light;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@use '../abstracts/variables';
+/* block: BUTTON */
+
+.button {
+    width: 100%;
+    padding: 1rem;
+    font-family: variables.$text-font-stack;
+    font-size: 1.25rem;
+    border: none;
+
+    &-blue {
+        background-color: variables.$color-blue;
+    }
+    
+    &-red {
+        background-color: variables.$color-red;
+    }
+}
+
